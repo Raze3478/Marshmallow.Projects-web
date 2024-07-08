@@ -106,30 +106,12 @@
 	margin-top: 20px;
   }
   
-/* Portfolio Links Styles */
-
-#portfolio-links {
-	background-color: #fff;
-	padding: 20px;
-	margin-bottom: 20px;
-	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  }
-  
-  #portfolio-links h2 {
-	margin-top: 0;
-  }
-  
-  .portfolio-links-container {
-	display: flex;
-	justify-content: center;
-  }
+  /* Portfolio Links Styles */
   
   #portfolio-links ul {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
-	margin: 0;
-	padding: 0;
   }
   
   #portfolio-links li {
