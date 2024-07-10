@@ -80,11 +80,7 @@ header {
     justify-content: space-between;
     align-items: center;
 }
-.logo {
-    width: 40px; /* adjust the width to your liking */
-    height: 40px; /* adjust the height to your liking */
-    margin-right: 20px; /* add some space between the logo and the navigation menu */
-}
+
 header nav ul {
     display: flex;
     gap: 20px;
@@ -238,6 +234,7 @@ footer {
 .footer-left img {
     max-width: 50px;
     margin-right: 10px;
+    src: url('https://github.com/Raze3478/Marshmallow.Projects-web/blob/80d35fa0bdceb0b48355f98071bf46dafcebea10/images/Transparent.png');
 }
 
 .footer-left p {
