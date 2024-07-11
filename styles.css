@@ -205,7 +205,7 @@ header button:hover {
     background-color: #f0f0f0; /* Light grey background */
     padding: 20px; /* Padding around the content */
     margin: 20px 0; /* Margin above and below the container */
-    border-radius: 8px; /* Rounded corners */
+    border-radius: 20px; /* Rounded corners */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
     text-align: center; /* Center-align the text */
 }
