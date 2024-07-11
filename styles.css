@@ -97,6 +97,10 @@ header button:hover {
     background-color: #004494;
 }
 
+.header-logo {
+    width: 10px;
+    height: auto;
+}
 /* Home Section Styles */
 
 .home-section {
@@ -282,9 +286,3 @@ footer p {
     .footer-middle ul {
         flex-direction: column;
     }
-}
-
-.header-logo {
-    width: 10px; /* Adjust the width as needed */
-    height: auto;
-}
