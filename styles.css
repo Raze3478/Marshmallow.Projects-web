@@ -136,27 +136,21 @@ header button:hover {
 
 .about-content {
     display: flex;
-    gap: 20px;
-    padding: 60px 20px;
-    background-color: #fff;
+    align-items: center; /* Aligns items vertically in the center */
+    justify-content: space-between; /* Spaces out the children evenly */
+    padding: 20px; /* Adds some padding around the content */
 }
 
-.about-image img {
-    max-width: 100%;
-    height: auto;
+.about-text, .about-image {
+    flex: 1; /* Each child will take up equal space */
+    padding: 20px; /* Adds some padding inside each child */
 }
 
-.about-text h2 {
-    font-size: 36px;
-    margin-bottom: 20px;
-}
-
-.about-text p {
-    font-size: 18px;
-}
-
-.about-text button {
-    background-color: #0056b3;
+/* Optional: Add responsiveness */
+@media (max-width: 768px) {
+    .about-content {
+        flex-direction: column; /* Stacks the children vertically on smaller screens */
+    }
 }
 
 /* Details Grid Styles */
