@@ -202,10 +202,12 @@ header button:hover {
 /* Unlock Section Styles */
 
 #unlock {
-    text-align: center;
-    padding: 60px 20px;
-    background-color: #003366;
-    color: #fff;
+    background-color: #f0f0f0; /* Light grey background */
+    padding: 20px; /* Padding around the content */
+    margin: 20px 0; /* Margin above and below the container */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    text-align: center; /* Center-align the text */
 }
 
 #unlock h2 {
@@ -216,10 +218,6 @@ header button:hover {
 #unlock p {
     font-size: 18px;
     margin-bottom: 20px;
-}
-
-#unlock button {
-    background-color: #0056b3;
 }
 
 /* Footer Styles */
