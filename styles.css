@@ -288,3 +288,17 @@ footer p {
     .footer-middle ul {
         flex-direction: column;
     }
+
+    neonCursor({
+        el: document.getElementByID('app'),
+        shaderPointers: 16,
+        curvePoints: 80,
+        curvelerp: 0.5,
+        radius1: 5,
+        radius2: 30,
+        velocityThreshold: 5,
+        sleepRadiusX: 100,
+        sleepRadiusY: 100,
+        sleepTimeCoefX: 0.0025,
+        sleepTimeCoefY: 0.0025
+    });
