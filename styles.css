@@ -206,7 +206,7 @@ header button:hover {
     padding: 20px; /* Padding around the content */
     margin: 20px 0; /* Margin above and below the container */
     border-radius: 20px; /* Rounded corners */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    box-shadow: 0 2px 4px rgba(188, 145, 145, 0.1); /* Subtle shadow for depth */
     text-align: center; /* Center-align the text */
 }
 
